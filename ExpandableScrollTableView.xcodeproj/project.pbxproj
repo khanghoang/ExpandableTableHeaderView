@@ -21,6 +21,7 @@
 		B45DADA619860FCA004134AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45DAD8819860FCA004134AE /* UIKit.framework */; };
 		B45DADAE19860FCA004134AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B45DADAC19860FCA004134AE /* InfoPlist.strings */; };
 		B45DADB019860FCA004134AE /* ExpandableScrollTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B45DADAF19860FCA004134AE /* ExpandableScrollTableViewTests.m */; };
+		B45DADBA198611A7004134AE /* wwdc-2014.jpg in Resources */ = {isa = PBXBuildFile; fileRef = B45DADB9198611A7004134AE /* wwdc-2014.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		B45DADAB19860FCA004134AE /* ExpandableScrollTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpandableScrollTableViewTests-Info.plist"; sourceTree = "<group>"; };
 		B45DADAD19860FCA004134AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B45DADAF19860FCA004134AE /* ExpandableScrollTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandableScrollTableViewTests.m; sourceTree = "<group>"; };
+		B45DADB9198611A7004134AE /* wwdc-2014.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "wwdc-2014.jpg"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +128,7 @@
 		B45DAD8B19860FCA004134AE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B45DADB9198611A7004134AE /* wwdc-2014.jpg */,
 				B45DAD8C19860FCA004134AE /* ExpandableScrollTableView-Info.plist */,
 				B45DAD8D19860FCA004134AE /* InfoPlist.strings */,
 				B45DAD9019860FCA004134AE /* main.m */,
@@ -200,6 +203,9 @@
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Triệu Khang";
 				TargetAttributes = {
+					B45DAD8019860FCA004134AE = {
+						DevelopmentTeam = BXU3B85A8F;
+					};
 					B45DADA119860FCA004134AE = {
 						TestTargetID = B45DAD8019860FCA004134AE;
 					};
@@ -230,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B45DAD9D19860FCA004134AE /* Images.xcassets in Resources */,
+				B45DADBA198611A7004134AE /* wwdc-2014.jpg in Resources */,
 				B45DAD8F19860FCA004134AE /* InfoPlist.strings in Resources */,
 				B45DAD9819860FCA004134AE /* Main.storyboard in Resources */,
 			);
@@ -377,6 +384,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExpandableScrollTableView/ExpandableScrollTableView-Prefix.pch";
 				INFOPLIST_FILE = "ExpandableScrollTableView/ExpandableScrollTableView-Info.plist";
@@ -390,6 +398,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ExpandableScrollTableView/ExpandableScrollTableView-Prefix.pch";
 				INFOPLIST_FILE = "ExpandableScrollTableView/ExpandableScrollTableView-Info.plist";
