@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B45DAD8519860FCA004134AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45DAD8419860FCA004134AE /* Foundation.framework */; };
+		B45DAD8719860FCA004134AE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45DAD8619860FCA004134AE /* CoreGraphics.framework */; };
+		B45DAD8919860FCA004134AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45DAD8819860FCA004134AE /* UIKit.framework */; };
+		B45DAD8F19860FCA004134AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B45DAD8D19860FCA004134AE /* InfoPlist.strings */; };
+		B45DAD9119860FCA004134AE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B45DAD9019860FCA004134AE /* main.m */; };
+		B45DAD9519860FCA004134AE /* KHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B45DAD9419860FCA004134AE /* KHAppDelegate.m */; };
+		B45DAD9819860FCA004134AE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B45DAD9619860FCA004134AE /* Main.storyboard */; };
+		B45DAD9B19860FCA004134AE /* KHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B45DAD9A19860FCA004134AE /* KHViewController.m */; };
+		B45DAD9D19860FCA004134AE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B45DAD9C19860FCA004134AE /* Images.xcassets */; };
+		B45DADA419860FCA004134AE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45DADA319860FCA004134AE /* XCTest.framework */; };
+		B45DADA519860FCA004134AE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45DAD8419860FCA004134AE /* Foundation.framework */; };
+		B45DADA619860FCA004134AE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B45DAD8819860FCA004134AE /* UIKit.framework */; };
+		B45DADAE19860FCA004134AE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B45DADAC19860FCA004134AE /* InfoPlist.strings */; };
+		B45DADB019860FCA004134AE /* ExpandableScrollTableViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B45DADAF19860FCA004134AE /* ExpandableScrollTableViewTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B45DADA719860FCA004134AE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B45DAD7919860FCA004134AE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B45DAD8019860FCA004134AE;
+			remoteInfo = ExpandableScrollTableView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B45DAD8119860FCA004134AE /* ExpandableScrollTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExpandableScrollTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45DAD8419860FCA004134AE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		B45DAD8619860FCA004134AE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		B45DAD8819860FCA004134AE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		B45DAD8C19860FCA004134AE /* ExpandableScrollTableView-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpandableScrollTableView-Info.plist"; sourceTree = "<group>"; };
+		B45DAD8E19860FCA004134AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B45DAD9019860FCA004134AE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B45DAD9219860FCA004134AE /* ExpandableScrollTableView-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ExpandableScrollTableView-Prefix.pch"; sourceTree = "<group>"; };
+		B45DAD9319860FCA004134AE /* KHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHAppDelegate.h; sourceTree = "<group>"; };
+		B45DAD9419860FCA004134AE /* KHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHAppDelegate.m; sourceTree = "<group>"; };
+		B45DAD9719860FCA004134AE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B45DAD9919860FCA004134AE /* KHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = KHViewController.h; sourceTree = "<group>"; };
+		B45DAD9A19860FCA004134AE /* KHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KHViewController.m; sourceTree = "<group>"; };
+		B45DAD9C19860FCA004134AE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		B45DADA219860FCA004134AE /* ExpandableScrollTableViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExpandableScrollTableViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B45DADA319860FCA004134AE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		B45DADAB19860FCA004134AE /* ExpandableScrollTableViewTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ExpandableScrollTableViewTests-Info.plist"; sourceTree = "<group>"; };
+		B45DADAD19860FCA004134AE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		B45DADAF19860FCA004134AE /* ExpandableScrollTableViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ExpandableScrollTableViewTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B45DAD7E19860FCA004134AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45DAD8719860FCA004134AE /* CoreGraphics.framework in Frameworks */,
+				B45DAD8919860FCA004134AE /* UIKit.framework in Frameworks */,
+				B45DAD8519860FCA004134AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45DAD9F19860FCA004134AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45DADA419860FCA004134AE /* XCTest.framework in Frameworks */,
+				B45DADA619860FCA004134AE /* UIKit.framework in Frameworks */,
+				B45DADA519860FCA004134AE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B45DAD7819860FCA004134AE = {
+			isa = PBXGroup;
+			children = (
+				B45DAD8A19860FCA004134AE /* ExpandableScrollTableView */,
+				B45DADA919860FCA004134AE /* ExpandableScrollTableViewTests */,
+				B45DAD8319860FCA004134AE /* Frameworks */,
+				B45DAD8219860FCA004134AE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B45DAD8219860FCA004134AE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B45DAD8119860FCA004134AE /* ExpandableScrollTableView.app */,
+				B45DADA219860FCA004134AE /* ExpandableScrollTableViewTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B45DAD8319860FCA004134AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B45DAD8419860FCA004134AE /* Foundation.framework */,
+				B45DAD8619860FCA004134AE /* CoreGraphics.framework */,
+				B45DAD8819860FCA004134AE /* UIKit.framework */,
+				B45DADA319860FCA004134AE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B45DAD8A19860FCA004134AE /* ExpandableScrollTableView */ = {
+			isa = PBXGroup;
+			children = (
+				B45DAD9319860FCA004134AE /* KHAppDelegate.h */,
+				B45DAD9419860FCA004134AE /* KHAppDelegate.m */,
+				B45DAD9619860FCA004134AE /* Main.storyboard */,
+				B45DAD9919860FCA004134AE /* KHViewController.h */,
+				B45DAD9A19860FCA004134AE /* KHViewController.m */,
+				B45DAD9C19860FCA004134AE /* Images.xcassets */,
+				B45DAD8B19860FCA004134AE /* Supporting Files */,
+			);
+			path = ExpandableScrollTableView;
+			sourceTree = "<group>";
+		};
+		B45DAD8B19860FCA004134AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B45DAD8C19860FCA004134AE /* ExpandableScrollTableView-Info.plist */,
+				B45DAD8D19860FCA004134AE /* InfoPlist.strings */,
+				B45DAD9019860FCA004134AE /* main.m */,
+				B45DAD9219860FCA004134AE /* ExpandableScrollTableView-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B45DADA919860FCA004134AE /* ExpandableScrollTableViewTests */ = {
+			isa = PBXGroup;
+			children = (
+				B45DADAF19860FCA004134AE /* ExpandableScrollTableViewTests.m */,
+				B45DADAA19860FCA004134AE /* Supporting Files */,
+			);
+			path = ExpandableScrollTableViewTests;
+			sourceTree = "<group>";
+		};
+		B45DADAA19860FCA004134AE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B45DADAB19860FCA004134AE /* ExpandableScrollTableViewTests-Info.plist */,
+				B45DADAC19860FCA004134AE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B45DAD8019860FCA004134AE /* ExpandableScrollTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45DADB319860FCA004134AE /* Build configuration list for PBXNativeTarget "ExpandableScrollTableView" */;
+			buildPhases = (
+				B45DAD7D19860FCA004134AE /* Sources */,
+				B45DAD7E19860FCA004134AE /* Frameworks */,
+				B45DAD7F19860FCA004134AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ExpandableScrollTableView;
+			productName = ExpandableScrollTableView;
+			productReference = B45DAD8119860FCA004134AE /* ExpandableScrollTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B45DADA119860FCA004134AE /* ExpandableScrollTableViewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B45DADB619860FCA004134AE /* Build configuration list for PBXNativeTarget "ExpandableScrollTableViewTests" */;
+			buildPhases = (
+				B45DAD9E19860FCA004134AE /* Sources */,
+				B45DAD9F19860FCA004134AE /* Frameworks */,
+				B45DADA019860FCA004134AE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B45DADA819860FCA004134AE /* PBXTargetDependency */,
+			);
+			name = ExpandableScrollTableViewTests;
+			productName = ExpandableScrollTableViewTests;
+			productReference = B45DADA219860FCA004134AE /* ExpandableScrollTableViewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B45DAD7919860FCA004134AE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = KH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Triệu Khang";
+				TargetAttributes = {
+					B45DADA119860FCA004134AE = {
+						TestTargetID = B45DAD8019860FCA004134AE;
+					};
+				};
+			};
+			buildConfigurationList = B45DAD7C19860FCA004134AE /* Build configuration list for PBXProject "ExpandableScrollTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B45DAD7819860FCA004134AE;
+			productRefGroup = B45DAD8219860FCA004134AE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B45DAD8019860FCA004134AE /* ExpandableScrollTableView */,
+				B45DADA119860FCA004134AE /* ExpandableScrollTableViewTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B45DAD7F19860FCA004134AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45DAD9D19860FCA004134AE /* Images.xcassets in Resources */,
+				B45DAD8F19860FCA004134AE /* InfoPlist.strings in Resources */,
+				B45DAD9819860FCA004134AE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45DADA019860FCA004134AE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45DADAE19860FCA004134AE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B45DAD7D19860FCA004134AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45DAD9B19860FCA004134AE /* KHViewController.m in Sources */,
+				B45DAD9119860FCA004134AE /* main.m in Sources */,
+				B45DAD9519860FCA004134AE /* KHAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B45DAD9E19860FCA004134AE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B45DADB019860FCA004134AE /* ExpandableScrollTableViewTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B45DADA819860FCA004134AE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B45DAD8019860FCA004134AE /* ExpandableScrollTableView */;
+			targetProxy = B45DADA719860FCA004134AE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B45DAD8D19860FCA004134AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45DAD8E19860FCA004134AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		B45DAD9619860FCA004134AE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45DAD9719860FCA004134AE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B45DADAC19860FCA004134AE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B45DADAD19860FCA004134AE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B45DADB119860FCA004134AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B45DADB219860FCA004134AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B45DADB419860FCA004134AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpandableScrollTableView/ExpandableScrollTableView-Prefix.pch";
+				INFOPLIST_FILE = "ExpandableScrollTableView/ExpandableScrollTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		B45DADB519860FCA004134AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpandableScrollTableView/ExpandableScrollTableView-Prefix.pch";
+				INFOPLIST_FILE = "ExpandableScrollTableView/ExpandableScrollTableView-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		B45DADB719860FCA004134AE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExpandableScrollTableView.app/ExpandableScrollTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpandableScrollTableView/ExpandableScrollTableView-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ExpandableScrollTableViewTests/ExpandableScrollTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		B45DADB819860FCA004134AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ExpandableScrollTableView.app/ExpandableScrollTableView";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ExpandableScrollTableView/ExpandableScrollTableView-Prefix.pch";
+				INFOPLIST_FILE = "ExpandableScrollTableViewTests/ExpandableScrollTableViewTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B45DAD7C19860FCA004134AE /* Build configuration list for PBXProject "ExpandableScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45DADB119860FCA004134AE /* Debug */,
+				B45DADB219860FCA004134AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B45DADB319860FCA004134AE /* Build configuration list for PBXNativeTarget "ExpandableScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45DADB419860FCA004134AE /* Debug */,
+				B45DADB519860FCA004134AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B45DADB619860FCA004134AE /* Build configuration list for PBXNativeTarget "ExpandableScrollTableViewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B45DADB719860FCA004134AE /* Debug */,
+				B45DADB819860FCA004134AE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B45DAD7919860FCA004134AE /* Project object */;
+}
